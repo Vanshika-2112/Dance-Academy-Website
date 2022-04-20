@@ -1,0 +1,40 @@
+h1
+{
+    text-align: center;
+}
+.myinput
+{
+    margin:5px;
+    padding:8px;
+    width: 300px;
+    height: 20px;
+    text-align: center;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+#container
+{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 400px;
+    border: 6px groove rgb(153, 133, 153);
+}
+.btn
+{
+    color: white;
+    background-color: rgb(92, 51, 72);
+    padding: 6px;
+    margin: 20px;
+}
+.btn:hover
+{
+    opacity: 0.5;
+    background-color: gray;
+    cursor: pointer;
+}

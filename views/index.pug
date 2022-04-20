@@ -1,0 +1,49 @@
+doctype HTML
+head 
+    title Dance Website
+    style
+        include ../static/style.css 
+    body 
+        nav#navbar 
+            div#logo 
+                img(src="/static/logo.png", alt="logo")
+                p#eda EDA
+            ul 
+                li #[a(href = "/") Home] 
+                li #[a(href = "/") Services]
+                li #[a(href = "/") About Us]
+                li #[a(href = "/contact") Contact Us]
+        section#header 
+            h1 
+                span Welcome to 
+                    span Encore Dance Academy
+    
+        section#introSection
+            
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iusto error iste voluptate odit a voluptatum accusamus ea, perferendis eaque nostrum itaque animi. Vero consequatur nobis consectetur ducimus! Blanditiis voluptatem deserunt doloribus sed rerum officia quas quod voluptas itaque labore qui similique, reprehenderit ea quisquam modi repellendus perspiciatis eos quis quasi illo! Excepturi ipsa inventore deserunt, dolor illo, ut odio tenetur corporis sapiente facilis vel sed veniam a nisi eligendi cum doloribus animi cumque nemo? Eligendi accusamus velit earum reiciendis magni, pariatur ad molestiae voluptates vitae quae nobis minima ipsam, odio nesciunt tenetur inventore amet ullam ipsa aut harum fugiat dolor tempore in! Culpa eos quasi et dicta aperiam dolorum totam molestiae labore voluptatibus error, est quis hic voluptatem!
+        section#cards
+            h2 OUR CLASSES
+            h3 Choose your style
+            div#container
+                div.card
+                    h4 JAZZ FUNK 
+                    div.card-box
+                        div.card-img
+                            img(src="/static/jazz.jpg")
+
+                div.card
+                    h4 MODERN DANCE
+                    div.card-box
+                        div.card-img
+                            img(src="/static/modern.jpg")
+
+                div.card
+                    h4 HOUSE DANCE
+                    div.card-box
+                        div.card-img
+                            img(src="/static/house.jpg")
+
+        footer#footer 
+            | Copyright © 2022 EncoreAcademy.com | All Rights Reserved
+        script 
+            include ../static/script.js
